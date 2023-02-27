@@ -1,8 +1,10 @@
 <script lang="ts">
 	import '../app.css'
-	import db from '$lib/db'
 	import { invalidate } from '$app/navigation'
 	import { onMount } from 'svelte'
+	import { routes } from '$lib/globals'
+	import db from '$lib/db'
+	import Navbar from './Navbar.svelte'
 
 	onMount(() => {
 		const {
@@ -17,4 +19,7 @@
 	})
 </script>
 
-<slot />
+<Navbar {routes} />
+<div class="container mx-auto">
+	<slot />
+</div>

@@ -1,4 +1,4 @@
-import type { Route } from '../types/app'
+import type { Route } from '$types/app'
 
 export const routes: Route[] = [
 	{
