@@ -7,11 +7,11 @@
 	 * State
 	 */
 	const credentials = {
-		username: 'Merlin',
-		email: 'mcornehl@mkw.eu',
-		password: 'password'
+		username: '',
+		email: '',
+		password: ''
 	}
-	let pw_confirm = 'password'
+	let pw_confirm = ''
 
 	/**
 	 * Methods
