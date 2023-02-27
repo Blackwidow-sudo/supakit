@@ -5,6 +5,7 @@ specifiers:
   '@supabase/auth-helpers-sveltekit': ^0.8.7
   '@supabase/supabase-js': ^2.8.0
   '@sveltejs/adapter-auto': ^2.0.0
+  '@sveltejs/adapter-static': ^2.0.1
   '@sveltejs/kit': ^1.5.0
   '@tailwindcss/forms': ^0.5.3
   '@typescript-eslint/eslint-plugin': ^5.45.0
@@ -31,6 +32,7 @@ dependencies:
 devDependencies:
   '@playwright/test': 1.31.1
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.8.5
+  '@sveltejs/adapter-static': 2.0.1_@sveltejs+kit@1.8.5
   '@sveltejs/kit': 1.8.5_svelte@3.55.1+vite@4.1.4
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.7
   '@typescript-eslint/eslint-plugin': 5.53.0_ny4s7qc6yg74faf3d6xty2ofzy
@@ -418,6 +420,14 @@ packages:
     dependencies:
       '@sveltejs/kit': 1.8.5_svelte@3.55.1+vite@4.1.4
       import-meta-resolve: 2.2.1
+    dev: true
+
+  /@sveltejs/adapter-static/2.0.1_@sveltejs+kit@1.8.5:
+    resolution: {integrity: sha512-o5/q3YwD/ErxYCFlK1v3ydvldyNKk1lh3oeyxn4mhz+Pkbx/uuxhzmbOpytTlp5aVqNHDVsb04xadUzOFCDDzw==}
+    peerDependencies:
+      '@sveltejs/kit': ^1.5.0
+    dependencies:
+      '@sveltejs/kit': 1.8.5_svelte@3.55.1+vite@4.1.4
     dev: true
 
   /@sveltejs/kit/1.8.5_svelte@3.55.1+vite@4.1.4:
